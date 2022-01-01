@@ -1,0 +1,87 @@
+.section-two-about-myself {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f9fb;
+  padding-top: 20px;
+}
+.top-title {
+  width: 400px;
+  text-align: center;
+}
+.bottom-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 124px 100px 84px 100px;
+}
+.content-p1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.years-work {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  width: 90%;
+  margin-bottom: 10px;
+  color: #0b36a8;
+}
+@media (max-width: 968px) {
+  .content-p1 {
+    font-size: 15px;
+    width: 80%;
+  }
+  .bottom-content {
+    padding: 124px 42px 84px 60px;
+  }
+}
+@media (max-width: 768px) {
+  .bottom-content {
+    flex-direction: column;
+  }
+  .left-side-of-about-section,
+  .middle-side-of-about-section {
+    margin-bottom: 40px;
+  }
+  .section-two-about-myself {
+    margin-top: 250px;
+  }
+  .top-title {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .section-two-about-myself {
+    margin-top: 350px;
+  }
+  .bottom-content {
+    flex-direction: column;
+    padding: 124px 35px 84px 35px;
+  }
+  .left-side-of-about-section,
+  .middle-side-of-about-section {
+    margin-bottom: 40px;
+  }
+  .top-title {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 425px) {
+  .section-two-about-myself {
+    width: 127%;
+  }
+}
+@media (max-width: 411px) {
+  .section-two-about-myself {
+    width: 100%;
+  }
+}

@@ -1,0 +1,138 @@
+.services-sklls-2 {
+  padding: 80px 100px 120px 100px;
+  background-color: #24262a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#list-one-skills {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 53px;
+  font-family: "Work Sans", sans-serif;
+  color: #fff;
+}
+#skills-p1 {
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 40%;
+  width: 590px;
+  margin-top: 50px;
+}
+.container {
+  width: 100%;
+  padding: 30px 30px 50px;
+  background-color: white;
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+.container * {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 500;
+}
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.details span {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 10px;
+}
+.bar {
+  position: relative;
+
+  border: 2px solid #0d96e0;
+
+  border-radius: 20px;
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #0d96e0;
+}
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+  100% {
+    width: 60%;
+  }
+}
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill {
+  100% {
+    width: 62%;
+  }
+}
+#js-bar {
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 72%;
+  }
+}
+#jQuery-bar {
+  animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill {
+  100% {
+    width: 30%;
+  }
+}
+@media (max-width: 411px) {
+  .wrapper {
+    width: 380px;
+  }
+  .details span {
+    font-size: 18px;
+  }
+  .services-sklls-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #list-one-skills {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 355px;
+  }
+  .details span {
+    font-size: 14px;
+  }
+  .services-sklls-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #list-one-skills {
+    font-size: 35px;
+  }
+}
